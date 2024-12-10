@@ -1,0 +1,41 @@
+.em-event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Wix Sans', sans-serif;
+}
+
+.em-event-item {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.em-event-calendar-icon {
+    width: 70px;
+    height: 70px;
+    background: #0073aa;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.em-event-day {
+    font-size: 18px;
+}
+
+.em-event-month {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.em-event-details {
+    font-size: 14px;
+    line-height: 1.6;
+}
